@@ -9,13 +9,13 @@ body {
     scroll-behavior: smooth;
 }
 
-/*Nav links item */
-.navbar-nav {
+
+.navbar-nav {                           /*Nav links item */
     margin: 0 auto;
 }
 
-/*signin/login buttons */
-.d-flex {
+
+.d-flex {                               /*signin/login buttons */
     justify-content: space-between;
 }
 
@@ -30,8 +30,8 @@ body {
 }
 
 
-/* carousel */
-.hero-carousel .carousel-inner {
+
+.hero-carousel .carousel-inner {        /* carousel */
     height: 90vh; 
   }
 
@@ -63,8 +63,8 @@ body {
     z-index: 1;
   }
 
-  /* reducing the width of the input */
-  .input-group .btn-outline-dark:hover {
+  
+  .input-group .btn-outline-dark:hover {        /* reducing the width of the input */
     color: #000;
     background-color: #fff;
   }
@@ -82,8 +82,8 @@ body {
     font-size: 0.8rem;
   }
 
-  /* Featured Models */
-  .align-items-center .img-fluid {
+  
+  .align-items-center .img-fluid {          /* Featured Models */
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -330,7 +330,6 @@ body {
         width: 50%;
         font-size: 0.8rem;
       }
-    
 }
 
 
@@ -362,8 +361,8 @@ body {
 
 
 
- /* Positioned indicators below the carousel/images */
- .custom-indicators {
+
+ .custom-indicators {            /* Positioned indicators below the carousel/images */
     display: flex;
     justify-content: start;
     position: relative;
@@ -380,8 +379,8 @@ body {
     background-color: rgba(0, 0, 0, 0.9);
   }
 
-  /* Positioned controls outside the carousel/images */
-  .custom-controls {
+ 
+  .custom-controls {             /* Positioned controls outside the carousel/images */
     display: flex;
     justify-content: end;
     position: relative;
@@ -461,8 +460,8 @@ body {
       }
   }
 
-    /* Benefits */
-    #benefits p {
+   
+    #benefits p {                        /* Benefits */
         min-width: 50px;
     }
 
@@ -479,6 +478,24 @@ body {
 
          #benefits img {
             width: 70%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    @media (min-width: 375px) and (max-width: 452px) {
+        #benefits p {
+            font-size: 0.6rem;
+            min-width: 0;
+            text-align: start;
+        }
+
+        #benefits h5 {
+            font-size: 0.7rem;
+        }
+
+         #benefits img {
+            width: 40%;
             height: auto;
             object-fit: cover;
         }
